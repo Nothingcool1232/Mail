@@ -18,6 +18,7 @@ export default async function handler(req, res) {
       host: "imap.gmail.com",
       port: 993,
       tls: true,
+      tlsOptions: { rejectUnauthorized: false },
       authTimeout: 10000
     }
   };
