@@ -1,7 +1,7 @@
 {
-  "type": "module",
   "dependencies": {
     "imap-simple": "^5.0.0",
-    "mailparser": "^3.6.4"
+    "mailparser": "^3.6.4",
+    "node-fetch": "^2.6.1"
   }
 }
