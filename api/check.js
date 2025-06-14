@@ -2,7 +2,7 @@ import { simpleParser } from "mailparser";
 import imaps from "imap-simple";
 import fetch from "node-fetch";
 
-const webhookUrl = "https://api.bots.business/v1/bots/2018361/new-webhook?&command=/onWebhook&public_user_token=da1d2bf929689e65c7aecd7d2e670571&user_id=21186298";
+const webhookUrl = "https://api.bots.business/v1/bots/2018361/new-webhook?&command=%2FonWebhook&public_user_token=5d596f7f2412aeca49d1fd4256d4c57a&user_id=48885563";
 
 export default async function handler(req, res) {
   const { mail, appPassword } = req.body;
